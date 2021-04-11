@@ -1,0 +1,28 @@
+{
+  "name": "multiplayer_tic_tac_toe_terminal",
+  "version": "0.0.1",
+  "description": "multiplayer_tic_tac_toe_terminal",
+  "author": "jairajdev",
+  "dependencies": {
+    "@types/socket.io": "^2.1.11",
+    "express": "^4.14.0",
+    "readcommand": "^0.3.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.1",
+    "underscore": "^1.11.0"
+  },
+  "devDependencies": {
+    "gts": "^3.0.1",
+    "typescript": "^4.0.3",
+    "@types/node": "^14.11.2"
+  },
+  "scripts": {
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
+  }
+}
